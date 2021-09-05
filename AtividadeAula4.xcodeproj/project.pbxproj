@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EC748E426E49DEF00A7DD7F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EC748E226E49DEF00A7DD7F /* Model.xcdatamodeld */; };
+		3EC748E626E49EDF00A7DD7F /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC748E526E49EDF00A7DD7F /* PersistenceController.swift */; };
 		3EDFCFF926D17F5D0066A870 /* AtividadeAula4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDFCFF826D17F5D0066A870 /* AtividadeAula4App.swift */; };
 		3EDFCFFB26D17F5D0066A870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDFCFFA26D17F5D0066A870 /* ContentView.swift */; };
 		3EDFCFFD26D17F5F0066A870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDFCFFC26D17F5F0066A870 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EC748E326E49DEF00A7DD7F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3EC748E526E49EDF00A7DD7F /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		3EDFCFF526D17F5D0066A870 /* AtividadeAula4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtividadeAula4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDFCFF826D17F5D0066A870 /* AtividadeAula4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtividadeAula4App.swift; sourceTree = "<group>"; };
 		3EDFCFFA26D17F5D0066A870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				3EDFCFF826D17F5D0066A870 /* AtividadeAula4App.swift */,
 				3EDFCFFA26D17F5D0066A870 /* ContentView.swift */,
+				3EC748E226E49DEF00A7DD7F /* Model.xcdatamodeld */,
+				3EC748E526E49EDF00A7DD7F /* PersistenceController.swift */,
 				3EDFCFFC26D17F5F0066A870 /* Assets.xcassets */,
 				3EDFD00126D17F5F0066A870 /* Info.plist */,
 				3EDFCFFE26D17F5F0066A870 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				3EDFCFFB26D17F5D0066A870 /* ContentView.swift in Sources */,
 				3EDFCFF926D17F5D0066A870 /* AtividadeAula4App.swift in Sources */,
+				3EC748E426E49DEF00A7DD7F /* Model.xcdatamodeld in Sources */,
+				3EC748E626E49EDF00A7DD7F /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +336,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EC748E226E49DEF00A7DD7F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EC748E326E49DEF00A7DD7F /* Model.xcdatamodel */,
+			);
+			currentVersion = 3EC748E326E49DEF00A7DD7F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3EDFCFED26D17F5D0066A870 /* Project object */;
 }

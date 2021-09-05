@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct AtividadeAula4App: App {
+    let persistenceController = PersistenceController.banco
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(\.managedObjectContext,persistenceController.container.viewContext)
         }
     }
 }
